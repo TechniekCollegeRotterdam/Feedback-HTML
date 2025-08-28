@@ -1,0 +1,25 @@
+/*
+    Project: Mijn Eerste Website
+    Bestand: style.css
+    Auteurs: [Namen]
+    Datum: [Datum]
+    Beschrijving: Hoofdstylesheet voor alle pagina's
+*/
+
+/* === ALGEMENE STYLING === */
+* {
+    /* Reset voor consistente weergave */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* === NAVIGATIE === */
+nav {
+    /* Styling voor hoofdnavigatie */
+}
+
+/* === MAIN CONTENT === */
+main {
+    /* Hoofdinhoud container */
+}
