@@ -17,9 +17,11 @@
 /* === NAVIGATIE === */
 nav {
     /* Styling voor hoofdnavigatie */
+    color: yellow;
 }
 
 /* === MAIN CONTENT === */
 main {
     /* Hoofdinhoud container */
+    color: black;
 }
