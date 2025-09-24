@@ -1,0 +1,18 @@
+{
+  "name": "html-css-feedback-template",
+  "version": "1.0.0",
+  "description": "Template voor HTML/CSS projecten met automatische feedback",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "html-validate": "^8.0.0",
+    "css-validator": "^3.0.0",
+    "jsdom": "^23.0.0",
+    "cheerio": "^1.0.0"
+  },
+  "keywords": ["html", "css", "education", "feedback"],
+  "author": "Techniek College Rotterdam",
+  "license": "MIT"
+}

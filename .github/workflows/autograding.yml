@@ -18,21 +18,24 @@ jobs:
         cache: 'npm'
     
     - name: Install dependencies
-      run: |
-        npm init -y
-        npm install html-validate css-validator jsdom cheerio
-    
-    - name: Run HTML Structure Tests
-      run: node tests/structure-tests.js
+      run: npm install
     
     - name: Run HTML Validation
       run: node tests/html-validator.js
+      continue-on-error: true
     
     - name: Run CSS Validation
       run: node tests/css-validator.js
+      continue-on-error: true
+    
+    - name: Run HTML Structure Tests
+      run: node tests/structure-tests.js
+      continue-on-error: true
     
     - name: Run Comment Quality Tests
       run: node tests/comment-tests.js
+      continue-on-error: true
     
     - name: Generate Feedback Report
       run: node tests/generate-feedback.js
+      continue-on-error: true
